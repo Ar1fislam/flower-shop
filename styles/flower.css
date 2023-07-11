@@ -112,7 +112,7 @@ body {
     align-items: center;
     gap: 15px;
     justify-content: center;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
  
 }
 
@@ -144,4 +144,24 @@ body {
     background-color: #FFF;
     border: 0px;
     width: 40%;
+}
+
+/* footer styles */
+footer{
+ background-color:#111010;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 50px ;
+}
+.footer-text>.section-title{
+    color: #FFF;
+}
+.footer-text .common-description{
+    color: #ffffffe5;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 11px;
 }
