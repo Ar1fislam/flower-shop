@@ -1,7 +1,63 @@
 /* shared styles */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.common-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 38px;
+}
+
 /* header styles */
+
+.banner {
+    
+    height: 80vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    /* background-image: url('/assets/pngwing 10.png');
+    background-repeat: no-repeat;
+    background-size:contain; 
+    background-position-x:80%;  */
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.banner-container-left{
+    max-width: 30%;
+
+}
+.banner .banner-img {
+    width: auto;
+    height: 100%;
+}
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
