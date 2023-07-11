@@ -111,6 +111,7 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 .fflower-img-container a{
+    font-weight: 900;
     color: black;
 }
 
