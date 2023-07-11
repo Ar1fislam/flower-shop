@@ -8,8 +8,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.primary-color{
-   color: #E55473;
+
+.primary-color {
+    color: #E55473;
 }
 
 .common-description {
@@ -31,8 +32,8 @@ body {
 }
 
 .common-img {
-    width: 280px;
-    height: 320px;
+    width: 200px;
+    height: 230px;
 }
 
 .section-title {
@@ -48,12 +49,8 @@ body {
 
 .banner {
 
-    height: 80vh;
+    height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
-    /* background-image: url('/assets/pngwing 10.png');
-    background-repeat: no-repeat;
-    background-size:contain; 
-    background-position-x:80%;  */
     padding: 50px 0px 0px 50px;
     display: flex;
     align-items: center;
@@ -82,6 +79,42 @@ body {
 
 /*----- main styles----- */
 
+/* featured flower */
+.ff-txt {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.fflower-img-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.f1 {
+    padding: 20px 10px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.f2 {
+    padding: 20px 10px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.f3 {
+    padding: 20px 10px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.fflower-img-container a{
+    color: black;
+}
+
+
 /* Hot deal styles */
 
 .hot-deal {
@@ -98,26 +131,27 @@ body {
 .hot-deal-left {
     text-align: center;
     width: 25%;
- 
+
 }
 
 /* instagram styles */
-.instagram{
+.instagram {
     margin-top: 60px;
     text-align: center;
-   
+
 }
-.insta-img{
+
+.insta-img {
     display: flex;
     align-items: center;
     gap: 15px;
     justify-content: center;
     margin-bottom: 60px;
- 
+
 }
 
 /* latest deals styles */
-.latest-deal{
+.latest-deal {
     height: 300px;
     width: 77%;
     margin: auto;
@@ -130,13 +164,15 @@ body {
     text-align: center;
 
 }
-.subscription{
+
+.subscription {
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: center;
 }
-.subscription input[type="email"]{
+
+.subscription input[type="email"] {
     display: block;
     padding: 15px 38px;
     color: #757575;
@@ -147,21 +183,24 @@ body {
 }
 
 /* footer styles */
-footer{
- background-color:#111010;
+footer {
+    background-color: #111010;
 }
 
-.footer-text{
+.footer-text {
     text-align: center;
-    padding: 50px ;
+    padding: 50px;
 }
-.footer-text>.section-title{
+
+.footer-text>.section-title {
     color: #FFF;
 }
-.footer-text .common-description{
+
+.footer-text .common-description {
     color: #ffffffe5;
 }
-.copy{
+
+.copy {
     color: rgba(255, 255, 255, 0.40);
     font-size: 11px;
 }
